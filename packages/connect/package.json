@@ -1,6 +1,6 @@
 {
   "name": "@stacks/connect",
-  "version": "6.2.0",
+  "version": "6.4.0",
   "scripts": {
     "build": "rimraf dist && concurrently 'yarn build:modules' 'yarn build:standalone'",
     "build:modules": "concurrently 'tsdx build --tsconfig tsconfig.json' 'yarn types'",
@@ -22,11 +22,11 @@
   "typings": "dist/types/index.d.ts",
   "unpkg": "dist/bundle.js",
   "dependencies": {
-    "@stacks/auth": "2.0.1",
+    "@stacks/auth": "3.2.0",
     "@stacks/connect-ui": "5.2.0",
-    "@stacks/network": "2.0.1",
-    "@stacks/prettier-config": "0.0.8",
-    "@stacks/transactions": "2.0.1",
+    "@stacks/network": "3.2.0",
+    "@stacks/prettier-config": "0.0.10",
+    "@stacks/transactions": "3.2.0",
     "bn.js": "^5.2.0",
     "buffer": "6.0.3",
     "jsontokens": "^3.0.0",
